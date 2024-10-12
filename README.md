@@ -1,6 +1,6 @@
 # Occupancy Modelling
 
-Occupancy models estimate the probability that a species occupies a site, accounting for imperfect detection. Let $$N$$ be the total number of survey sites, and $$T$$ be the total number of distinct sampling occasions. Furthermore, let $$n_t$$ be the number of sites where the species was detected at time $$t$$, and $$n$$ be the total number of sites at which the species was detected at least once.
+Occupancy models estimate the probability that a species occupies a site, accounting for imperfect detection. Let $$N$$ be the total number of survey sites, and $$T$$ be the total number of distinct sampling occasions. 
 
 ## Key Parameters
 
@@ -61,7 +61,7 @@ $$
 
 ### Example IV
 
-If presence and detection probabilities are constant across monitoring sites, that is $$\psi_i=\psi$$ and $$p_{it}=p_t$$ for all $$i$$, the combined model likelihood can be written as:
+If presence and detection probabilities are constant across monitoring sites, that is $$\psi_i=\psi$$ and $$p_{it}=p_t$$ for all $$i$$. Furthermore, let $$n_t$$ be the number of sites where the species was detected at time $$t$$, and $$n$$ be the total number of sites at which the species was detected at least once. The combined model likelihood can be written as:
 
 $$
 L(\psi,\textbf{p})=\left[\psi^n \prod_{t=1}^Tp_t^{n_t}(1-p_t)^{n-n_t}\right]\times\left[\psi \prod_{t=1}^T(1-p_t)+(1-\psi)\right]^{N-n}
