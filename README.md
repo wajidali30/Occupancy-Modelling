@@ -86,3 +86,6 @@ If $$\hat{\psi}_i$$ denotes the occupancy probability measured as a function of 
 $$
 \bar{\hat{\psi}}=\frac{\sum_{i=1}^N\hat{\psi}_i}{N}
 $$
+
+### References
+- MacKenzie, D.I., Nichols, J.D., Lachman, G.B., Droege, S., Andrew Royle, J. and Langtimm, C.A., 2002. Estimating site occupancy rates when detection probabilities are less than one. Ecology, 83(8), pp.2248-2255.
