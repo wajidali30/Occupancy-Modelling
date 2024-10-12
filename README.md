@@ -1,12 +1,12 @@
 # Occupancy Modelling
 
-Occupancy models estimate the probability that a species occupies a site, accounting for imperfect detection. Let \( N \) be the total number of survey sites, and \( T \) be the total number of distinct sampling occasions. Furthermore, let $n_t$ be the number of sites where the species was detected at time \( t \), and \( n \) be the total number of sites at which the species was detected at least once.
+Occupancy models estimate the probability that a species occupies a site, accounting for imperfect detection. Let \(N\) be the total number of survey sites, and \( T \) be the total number of distinct sampling occasions. Furthermore, let $n_t$ be the number of sites where the species was detected at time \( t \), and \( n \) be the total number of sites at which the species was detected at least once.
 
 ## Key Parameters
 
 The simplest occupancy model (MacKenzie _et al_. 2002) consists of two key parameters:
 
-- \( \psi_i \): Probability that site \( i \) is occupied.
+- \(\psi_i\): Probability that site \( i \) is occupied.
 - \( p_{it} \): Probability of detecting the species at site \( i \) at visit/occasion/time \( t \).
 
 ## Assumptions
