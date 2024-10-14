@@ -27,11 +27,6 @@ $$
 L(\psi, p_{it}|y_i)=\prod_{i=1}^N\left[\psi_i \prod_{j=1}^Tp_{it}^{y_{it}}(1-p_{it})^{1-y_{it}}+(1-\psi_i)\prod_{j=1}^T(1-p_{it})^{1-y_{it}}\right]
 $$
 
-The likelihood of occupancy (detection only) is given by:
-
-$$
-L(\psi, p_{it}|y_i)=\prod_{i=1}^N\left[\psi_i \prod_{j=1}^Tp_{it}^{y_{it}}(1-p_{it})^{1-y_{it}}\right]
-$$
 
 ## Examples
 
