@@ -21,13 +21,13 @@ The simplest occupancy model (MacKenzie _et al_. 2002) consists of two key param
 
 ## General Likelihoods
 
-The likelihood of detection/non-detection is modeled as:
+The likelihood of occupancy is modeled as:
 
 $$
 L(\psi, p_{it}|y_i)=\prod_{i=1}^N\left[\psi_i \prod_{j=1}^Tp_{it}^{y_{it}}(1-p_{it})^{1-y_{it}}+(1-\psi_i)\prod_{j=1}^T(1-p_{it})^{1-y_{it}}\right]
 $$
 
-The likelihood of detection only is given by:
+The likelihood of occupancy (detection only) is given by:
 
 $$
 L(\psi, p_{it}|y_i)=\prod_{i=1}^N\left[\psi_i \prod_{j=1}^Tp_{it}^{y_{it}}(1-p_{it})^{1-y_{it}}\right]
