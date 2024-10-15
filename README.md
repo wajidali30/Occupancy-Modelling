@@ -28,7 +28,7 @@ L(\psi, p|y)=\prod_{i=1}^NL(\psi_i, p_{it}|y_i)
 $$
 where $L(\psi_i, p_{it}|y_i)$ is the liklihood of site $i$ given by
 $$
-L(\psi_i, p_{it}|y_i)=\psi_i \prod_{j=1}^Tp_{it}^{y_{it}}(1-p_{it})^{1-y_{it}}+(1-\psi_i)\prod_{j=1}^T(1-p_{it})^{1-y_{it}}
+L(\psi_i, p_{it}|y_i)=\bigg[\psi_i \prod_{j=1}^Tp_{it}^{y_{it}}(1-p_{it})^{1-y_{it}}\bigg]\times\bigg[\psi_i\prod_{j=1}^T(1-p_{it})^{1-y_{it}}+(1-\psi_i)\bigg]
 $$
 
 
@@ -37,7 +37,7 @@ $$
 
 ### Example I
 
-Let site $$i$$ have history $$y=01010$$ (i.e., $$y_{i1}=y_{i3}=y_{i5}=0$$ and $$y_{i2}=y_{i4}=1$$). The likelihood of detection would be:
+Let site $$i$$ have history $$y=01010$$ (i.e., $$y_{i1}=y_{i3}=y_{i5}=0$$ and $$y_{i2}=y_{i4}=1$$). The likelihood of site $$i$$ (when detection) would be:
 
 $$
 \psi_i\left[p_{i1}^0(1-p_{i1})^1p_{i2}^1(1-p_{i2})^0p_{i3}^0(1-p_{i3})^1p_{i4}^1(1-p_{i4})^0p_{i5}^0(1-p_{i5})^1\right]=\psi_i\left[(1-p_{i1})p_{i2}(1-p_{i3})p_{i4}(1-p_{i5})\right]
@@ -45,10 +45,10 @@ $$
 
 ### Example II
 
-Let site $$k$$ have history $$y=00000$$ (i.e., $$y_{k1}=y_{k2}=y_{k3}=y_{k4}=y_{k5}=0$$). The likelihood of detection would be:
+Let site $$k$$ have history $$y=00000$$ (i.e., $$y_{k1}=y_{k2}=y_{k3}=y_{k4}=y_{k5}=0$$). The likelihood of site $$i$$ (when un-detection)would be:
 
 $$
-\psi_k\left[(1-p_{k1})(1-p_{k2})(1-p_{k3})(1-p_{k4})(1-p_{k5})\right]=\psi_k\prod_{t=1}^5(1-p_{kt})
+\psi_k\left[(1-p_{k1})(1-p_{k2})(1-p_{k3})(1-p_{k4})(1-p_{k5})\right]=\psi_k\prod_{t=1}^5(1-p_{kt})+(1-\psi_k)
 $$
 
 ### Example III (Missing Observations)
