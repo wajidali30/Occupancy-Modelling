@@ -89,3 +89,4 @@ $$
 
 ### References
 - MacKenzie, D.I., Nichols, J.D., Lachman, G.B., Droege, S., Andrew Royle, J. and Langtimm, C.A., 2002. Estimating site occupancy rates when detection probabilities are less than one. Ecology, 83(8), pp.2248-2255.
+- Littlefair, J.E., Allerton, J.J., Brown, A.S., Butterfield, D.M., Robins, C., Economou, C.K., Garrett, N.R. and Clare, E.L., 2023. Air-quality networks collect environmental DNA with the potential to measure biodiversity at continental scales. Current Biology, 33(11), pp.R426-R428.
