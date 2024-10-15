@@ -24,7 +24,7 @@ The simplest occupancy model (MacKenzie _et al_. 2002) consists of two key param
 For $N$ sites, the likelihood of specie occupancy is modeled as:
 
 $$
-L(\psi, p_{it}|y_i)=\prod_{i=1}^NL(\psi_i, p_{it}|y_i)
+L(\psi, p|y)=\prod_{i=1}^NL(\psi_i, p_{it}|y_i)
 $$
 where $L(\psi_i, p_{it}|y_i)$ is the liklihood of site $i$ given by
 $$
