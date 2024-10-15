@@ -1,3 +1,6 @@
+Credit:
+- Model: MacKenzie _et al_. (2002)
+- Data: Littlefair _et al_. (2023)
 # Occupancy Modelling
 
 Occupancy models estimate the probability that a species occupies a site, accounting for imperfect detection. Let $$N$$ be the total number of survey sites, and $$T$$ be the total number of distinct sampling occasions. 
