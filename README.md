@@ -31,7 +31,7 @@ L(\psi, p|y)=\prod_{i=1}^NL(\psi_i, p_{it}|y_i)
 $$
 where $L(\psi_i, p_{it}|y_i)$ is the liklihood of site $i$ given by
 $$
-L(\psi_i, p_{it}|y_i)=\bigg[\psi_i \prod_{j=1}^Tp_{it}^{y_{it}}(1-p_{it})^{1-y_{it}}\bigg]\times\bigg[\psi_i\prod_{j=1}^T(1-p_{it})^{1-y_{it}}+(1-\psi_i)\bigg]
+L(\psi_i, p_{it}|y_i)=1_y(1)\bigg[\psi_i \prod_{j=1}^Tp_{it}^{y_{it}}(1-p_{it})^{1-y_{it}}\bigg]+(1-1_y(1))\bigg[\psi_i\prod_{j=1}^T(1-p_{it})^{1-y_{it}}+(1-\psi_i)\bigg]
 $$
 
 
