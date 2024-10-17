@@ -34,7 +34,7 @@ $$
 L(\psi_i, p_{it}|y_i)=1_y(1)\bigg[\psi_i \prod_{j=1}^Tp_{it}^{y_{it}}(1-p_{it})^{1-y_{it}}\bigg]+(1-1_y(1))\bigg[\psi_i\prod_{j=1}^T(1-p_{it})^{1-y_{it}}+(1-\psi_i)\bigg]
 $$
 
-
+where $$1_y(1)$$ is the indicator function, which is equal to $1$ when $y$ has an entry $1$ and zero otherwise. 
 
 ## Examples
 
@@ -67,7 +67,7 @@ $$
 If presence and detection probabilities are constant across monitoring sites, that is $$\psi_i=\psi$$ and $$p_{it}=p_t$$ for all $$i$$. Furthermore, let $$n_t$$ be the number of sites where the species was detected at time $$t$$, and $$n$$ be the total number of sites at which the species was detected at least once. The combined model likelihood can be written as:
 
 $$
-L(\psi,\textbf{p})=\left[\psi^n \prod_{t=1}^Tp_t^{n_t}(1-p_t)^{n-n_t}\right]\times\left[\psi \prod_{t=1}^T(1-p_t)+(1-\psi)\right]^{N-n}
+L(\psi,\textbf{p})=1_y(1)\left[\psi^n \prod_{t=1}^Tp_t^{n_t}(1-p_t)^{n-n_t}\right]+(1-1_y(1))\left[\psi \prod_{t=1}^T(1-p_t)+(1-\psi)\right]^{N-n}
 $$
 
 ## Extensions to the Model (Covariates)
